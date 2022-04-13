@@ -20,6 +20,5 @@ class MobileBankApiTestV1 {
           .statusCode(200)
               .body(matchesJsonSchemaInClasspath("accounts.schema.json"))
       ;
-
     }
 }
