@@ -1,7 +1,6 @@
 package ru.netology.rest;
 
 import org.junit.jupiter.api.Test;
-import io.restassured.http.ContentType;
 import static io.restassured.RestAssured.given;
 import static io.restassured.module.jsv.JsonSchemaValidator.matchesJsonSchemaInClasspath;
 
